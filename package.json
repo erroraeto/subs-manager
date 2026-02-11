@@ -1,0 +1,17 @@
+{
+  "name": "project-name",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build": "project-name/node_modules/.bin/nuxt build",
+    "dev": "project-name/node_modules/.bin/nuxt dev",
+    "generate": "project-name/node_modules/.bin/nuxt generate",
+    "preview": "project-name/node_modules/.bin/nuxt preview",
+    "postinstall": "project-name/node_modules/.bin/nuxt prepare"
+  },
+  "dependencies": {
+    "nuxt": "^4.3.1",
+    "vue": "^3.5.28",
+    "vue-router": "^4.6.4"
+  }
+}
